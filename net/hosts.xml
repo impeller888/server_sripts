@@ -1,0 +1,22 @@
+<hosts_list>
+ <host name = "1">
+  <adress wan = "" lan = "" mac = ""/>
+  <auth login ="admin" pass ="shdgfhdg"/>
+ </host>
+ <host name = "2">
+  <adress wan = "" lan = "" mac = ""/>
+  <auth login ="admin" pass ="shdgfhdg"/>
+ </host>
+ <host name = "3">
+  <adress wan = "" lan = "" mac = ""/>
+  <auth login ="admin" pass ="shdgfhdg"/>
+ </host>
+ <host name = "4">
+  <adress wan = "" lan = "" mac = ""/>
+  <auth login ="admin" pass ="shdgfhdg"/>
+ </host>
+ <host name = "5">
+  <adress wan = "" lan = "" mac = ""/>
+  <auth login ="admin" pass ="shdgfhdg"/>
+ </host>
+</hosts_list>

@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>393</width>
+    <height>327</height>
+   </rect>
+  </property>
+  <property name="acceptDrops">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>Сводка погоды v1.0</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="town">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>15</y>
+      <width>62</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Самара</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="latitude">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>62</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Широта</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="longitude">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>65</y>
+      <width>62</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Долгота</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lat">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>40</y>
+      <width>62</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="long_2">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>65</y>
+      <width>62</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="weekday">
+    <property name="geometry">
+     <rect>
+      <x>305</x>
+      <y>35</y>
+      <width>66</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Суббота</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="tod">
+    <property name="geometry">
+     <rect>
+      <x>305</x>
+      <y>60</y>
+      <width>56</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Вечер</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="date">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>10</y>
+      <width>76</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>16.01.2010</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="weather">
+    <property name="geometry">
+     <rect>
+      <x>75</x>
+      <y>100</y>
+      <width>62</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Условия</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="cloudiness">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>125</y>
+      <width>86</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Облачность</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="precipitation">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>155</y>
+      <width>62</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Осадки</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rpower">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>185</y>
+      <width>116</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Отн. влажность</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="relwet">
+    <property name="geometry">
+     <rect>
+      <x>155</x>
+      <y>185</y>
+      <width>62</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="pressure">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>245</y>
+      <width>76</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Давление</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="temperature">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>165</y>
+      <width>96</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Температура</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="prec">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>155</y>
+      <width>106</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="cldn">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>125</y>
+      <width>116</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="pres_min">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>250</y>
+      <width>26</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="update">
+    <property name="geometry">
+     <rect>
+      <x>295</x>
+      <y>285</y>
+      <width>81</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Обновить</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="pres_max">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>250</y>
+      <width>26</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>145</x>
+      <y>250</y>
+      <width>21</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>...</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>250</y>
+      <width>62</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>мм р.ст.</string>
+    </property>
+   </widget>
+   <widget class="QProgressBar" name="temp_min">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>190</y>
+      <width>16</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>-40</number>
+    </property>
+    <property name="maximum">
+     <number>40</number>
+    </property>
+    <property name="value">
+     <number>-1</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+    <property name="format">
+     <string>%v</string>
+    </property>
+   </widget>
+   <widget class="QProgressBar" name="temp_max">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>190</y>
+      <width>16</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>-40</number>
+    </property>
+    <property name="maximum">
+     <number>40</number>
+    </property>
+    <property name="value">
+     <number>-1</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+    <property name="format">
+     <string>%v</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>85</y>
+      <width>371</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_2">
+    <property name="geometry">
+     <rect>
+      <x>272</x>
+      <y>5</y>
+      <width>16</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>275</x>
+      <y>115</y>
+      <width>46</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>larrow.jpg</normaloff>larrow.jpg</iconset>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+    <property name="autoDefault">
+     <bool>false</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>115</y>
+      <width>51</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>rarrow.jpg</normaloff>rarrow.jpg</iconset>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+ <user>sysdba</user>
+ <pass>masterkey</pass>
+ <path>/media/sda2/Disk L/avto_db</path>
+</settings>

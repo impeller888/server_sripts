@@ -1,0 +1,22 @@
+#!/usr/bin/python
+# coding: utf-8
+import sys
+import net
+from PyQt4.QtCore import *
+from PyQt4.QtGui import *
+from PyQt4.QtWebKit import *
+
+class MyClass(QMainWindow,
+        net.Ui_MainWindow):
+
+    def __init__(self, parent=None):
+        super(MyClass, self).__init__(parent)
+        self.setupUi(self)
+        self.webView.load(QUrl("http://www.google.ru"))
+        self.webView.reload()
+        self.webView.repaint()
+
+app = QApplication(sys.argv)
+myclass = MyClass()
+myclass.show()
+app.exec_()

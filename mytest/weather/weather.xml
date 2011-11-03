@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MMWEATHER>
+	<REPORT type="frc3">
+		<TOWN index="28900" sname="%D1%E0%EC%E0%F0%E0" latitude="56" longitude="38">
+			<FORECAST day="16" month="01" year="2010" hour="15" tod="2" predict="0" weekday="7">
+				<PHENOMENA cloudiness="0" precipitation="10" rpower="0" spower="0"/>
+				<PRESSURE max="769" min="767"/>
+				<TEMPERATURE max="-18" min="-16"/>
+				<WIND min="2" max="4" direction="0"/>
+				<RELWET max="98" min="96"/>
+				<HEAT min="-22" max="-20"/>
+			</FORECAST>
+			<FORECAST day="16" month="01" year="2010" hour="21" tod="3" predict="0" weekday="7">
+				<PHENOMENA cloudiness="0" precipitation="10" rpower="0" spower="0"/>
+				<PRESSURE max="772" min="770"/>
+				<TEMPERATURE max="-21" min="-19"/>
+				<WIND min="2" max="4" direction="0"/>
+				<RELWET max="99" min="97"/>
+				<HEAT min="-24" max="-22"/>
+			</FORECAST>
+			<FORECAST day="17" month="01" year="2010" hour="03" tod="0" predict="0" weekday="1">
+				<PHENOMENA cloudiness="0" precipitation="10" rpower="0" spower="0"/>
+				<PRESSURE max="774" min="772"/>
+				<TEMPERATURE max="-25" min="-23"/>
+				<WIND min="1" max="3" direction="7"/>
+				<RELWET max="100" min="98"/>
+				<HEAT min="-28" max="-26"/>
+			</FORECAST>
+			<FORECAST day="17" month="01" year="2010" hour="09" tod="1" predict="0" weekday="1">
+				<PHENOMENA cloudiness="0" precipitation="10" rpower="0" spower="0"/>
+				<PRESSURE max="774" min="772"/>
+				<TEMPERATURE max="-23" min="-21"/>
+				<WIND min="2" max="4" direction="7"/>
+				<RELWET max="98" min="96"/>
+				<HEAT min="-28" max="-26"/>
+			</FORECAST>
+		</TOWN>
+	</REPORT>
+</MMWEATHER>
