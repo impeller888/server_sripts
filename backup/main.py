@@ -1,6 +1,7 @@
 #!/usr/bin/python
 # coding: utf-8
 #main script
+#Version 1.0 alpha
 
 import sys
 from classes.server_class import Server
